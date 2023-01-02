@@ -24,10 +24,17 @@
 
 #### useMemo
 
+- useMemo를 사용하지 않은 경우의 무거운 계산 ✅
+- useMemo를 사용한 경우의 무거운 계산 ✅
+- useMemo 응용 => 객체의 주소값이 변경될 때마다 리렌더링 되는 것 최적화 하기 ✅
 
 ---
 
 #### useCallback
+
+- useCallback을 적용하지 않은 경우 ✅
+- useCallback을 적용한 경우 ✅
+- useCallback을 활용해 스타일 적용하기(with. 최적화) ✅
 
 ---
 
