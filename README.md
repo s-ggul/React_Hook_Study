@@ -22,7 +22,7 @@
 
 ---
 
-#### useMemo
+#### useMemo ✅
 
 - useMemo를 사용하지 않은 경우의 무거운 계산 ✅
 - useMemo를 사용한 경우의 무거운 계산 ✅
@@ -30,7 +30,7 @@
 
 ---
 
-#### useCallback
+#### useCallback ✅
 
 - useCallback을 적용하지 않은 경우 ✅
 - useCallback을 적용한 경우 ✅
@@ -38,14 +38,27 @@
 
 ---
 
-#### useContext
+#### useContext ✅
+
+- Prop Drilling의 경우 ✅
+- Context를 적용한 경우 ✅
 
 ---
 
-#### useReducer
+#### useReducer ✅
+ 
+- 간단한 은행 입출금 예제 ✅
+- useReducer를 이용한 출석부 예제 ✅
 
 ---
 
+#### React.memo ✅
+
+- React.memo 사용하기 ✅
+- useMemo + React.memo ✅
+- useCallback + React.memo ✅
+
+---
 #### Custom Hook
 
 ---
